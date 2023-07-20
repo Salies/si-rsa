@@ -13,7 +13,8 @@ digital.
 Uma outra alternativa seria a distribuição da chave pública de modo offline, por meio de um dispositivo de armazenamento removível,
 como um pen drive. 
 
-Seria necessário, em ambos os casos, garantir que nenhuma das partes envolvidas na distribuição da chave pública foi comprometida
-e que a chave pública não foi adulterada. Por isso, é necessária a criação de um bom manual a ser seguido pelas partes, a fim de
-prevenir o comprometimento da distribuição. Quanto a integridade da chave, uma verificação via hash checksum seria suficiente.
+Seria necessário, em ambos os casos, garantir que nenhuma das partes envolvidas (máquinas, dispositivos, etc.) na distribuição 
+da chave pública foi comprometida e que a chave pública não foi adulterada. Por isso, é necessária a criação de um bom manual a 
+ser seguido pelas partes, a fim de prevenir o comprometimento da distribuição. 
+Quanto a integridade da chave, uma verificação via hash checksum seria suficiente.
 Com segurança nas máquinas e criptografia, seria mais difícil que a chave ou o checksum fossem interceptados e adulterados.
