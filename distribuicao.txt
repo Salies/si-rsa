@@ -1,0 +1,19 @@
+3 - De posse das duas chaves, pense em uma uma forma de distribuir a chave pública 
+(Não precisa desenvolver, mas precisa descrever), 
+isso é muito importante para entender como isso acontece!
+
+Resposta:
+
+Uma forma de realizar a distribuição segura da chave pública online seria através de uma comunicação criptografada
+(HTTPS, por exemplo) onde o usuário tem que autenticar-se antes de recebê-la. Idealmente, a autenticação contaria
+que verificação por dois fatores (via SMS ou, preferencialmente, através de algum aplicativo autenticador ou gerador de token)
+para garantir que o usuário é quem ele diz ser. Outra maneira de assegurar a autenticação seria por meio de um algum certificado
+digital.
+
+Uma outra alternativa seria a distribuição da chave pública de modo offline, por meio de um dispositivo de armazenamento removível,
+como um pen drive. 
+
+Seria necessário, em ambos os casos, garantir que nenhuma das partes envolvidas na distribuição da chave pública foi comprometida
+e que a chave pública não foi adulterada. Por isso, é necessária a criação de um bom manual a ser seguido pelas partes, a fim de
+prevenir o comprometimento da distribuição. Quanto a integridade da chave, uma verificação via hash checksum seria suficiente.
+Com segurança nas máquinas e criptografia, seria mais difícil que a chave ou o checksum fossem interceptados e adulterados.
